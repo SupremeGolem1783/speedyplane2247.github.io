@@ -2,15 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>ConsentText</key>
-	<dict>
-		<key>default</key>
-		<string>This profile won't allow you to remove it, without Consent from the writer. It will be auto-removed every 7 days to make sure you are still with us.</string>
-	</dict>
-	<key>DurationUntilRemoval</key>
-	<integer>604800</integer>
-	<key>HasRemovalPasscode</key>
-	<true/>
 	<key>PayloadContent</key>
 	<array>
 	
@@ -55,7 +46,7 @@
 	<key>PayloadOrganization</key>
 	<string>GopherGang Inc.</string>
 	<key>PayloadRemovalDisallowed</key>
-	<true/>
+	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
